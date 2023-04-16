@@ -9,6 +9,7 @@ However, the game will be over if the snake hits the wall or its own body. The c
 
 The game records the player's current score and displays it on the screen. Additionally, the game also stores the player's best score in a file.
 
+
 How to Play:
 
 Use the arrow keys to control the snake's movement: up, down, left, and right.
