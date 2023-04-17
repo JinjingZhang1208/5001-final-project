@@ -19,3 +19,11 @@ The snake will move in the direction of the last arrow key pressed.
 Eat as much food as possible to increase your score.
 
 Avoid hitting the wall or the snake's body, or the game will be over.
+
+Files Explanations:
+main.py - run main.py to play the game
+elements.py - class Snake, class Food located here
+score_manager.py - class Score, save_best_score_to_file, load_best_score_from_file located here
+data.txt - file used to track the best_score, dafault to 0
+test_elements.py - unitest the class Snake, class Food
+test_score.py - test save_best_score_to_file, load_best_score_from_file functions. class Score can be checked by playing the game.
