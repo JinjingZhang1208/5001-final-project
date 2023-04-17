@@ -9,7 +9,7 @@ SEMESTER: Spring 2023
 """
 from turtle import Screen
 from elements import Snake, Food
-from game_manager import Score
+from score_manager import Score
 import time
 import sys
 
@@ -25,6 +25,12 @@ def play_again():
             main()
         else:
             sys.exit()
+
+
+def hit_the_wall(snake_head_x, snake_head_y):
+    """check to see if snake hits the wall. End the game and ask user if they want to play again if hits the wall."""
+    if snake_head_x > 380 or snake_head_x < -380 or snake_head_y > 330 or snake_head_y < -330:
+        return True
 
 
 def main():
@@ -61,8 +67,7 @@ def main():
             score.add_score()
 
         # check to see if we need to update the best score when hit the wall and ask the user if he wants to play again
-        if snake.snake_body[0].xcor() > 380 or snake.snake_body[0].xcor() < -380 \
-                or snake.snake_body[0].ycor() > 330 or snake.snake_body[0].ycor() < -330:
+        if hit_the_wall(snake.snake_body[0].xcor(), snake.snake_body[0].ycor()):
             score.reset()
             play_again()
 
