@@ -21,9 +21,16 @@ Eat as much food as possible to increase your score.
 Avoid hitting the wall or the snake's body, or the game will be over.
 
 Files Explanations:
-main.py - run main.py to play the game
-elements.py - class Snake, class Food located here
-score_manager.py - class Score, save_best_score_to_file, load_best_score_from_file located here
-data.txt - file used to track the best_score, dafault to 0
-test_elements.py - unitest the class Snake, class Food
-test_score.py - test save_best_score_to_file, load_best_score_from_file functions. class Score can be checked by playing the game.
+
+main.py: This file contains the main game logic and can be run to play the game.
+
+elements.py: This file contains the Snake and Food classes, which are the properties of the game elements.
+
+score_manager.py: This file contains the Score class, which manages the player's score during the game. 
+It also includes functions to save the best score to a file and load the best score from a file. 
+The file data.txt is used to store the best score, which defaults to 0.
+
+test_elements.py: This file contains unit tests for the Snake and Food classes.
+
+test_score.py: This file contains tests for the save_best_score_to_file and load_best_score_from_file functions in the Score class. 
+Note that the Score class can be tested by playing the game.
