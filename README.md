@@ -1,6 +1,7 @@
 ### Snake Game
 
 Credit: Jinjing Zhang
+
 Language: Python
 
 
