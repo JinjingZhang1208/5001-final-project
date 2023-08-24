@@ -1,14 +1,14 @@
 ### Snake Game
 
+Credit: Jinjing Zhang
+Language: Python
 
-##Introduction:##
 
-This is a classic Snake game where the player controls a snake on the screen. The objective is to score points by letting the snake eat food that randomly appears on the screen. There is no limit to the amount of food that can be eaten.
+## Introduction
 
-However, the game will be over if the snake hits the wall or its own body. The challenging part of the game is that the snake's body length increases as the player scores more points.
+Welcome to the classic Snake game! In this project, you control a snake on the screen and aim to score points by guiding it to eat randomly appearing food. But be careful, hitting the wall or your snake's own body will end the game. The challenge increases as your snake grows longer with each food consumption.
 
-The game records the player's current score and displays it on the screen. Additionally, the game also stores the player's best score in a file.
-
+The game displays your current score and keeps track of your best score, saving it in a file.
 
 
 ## Files Overview
